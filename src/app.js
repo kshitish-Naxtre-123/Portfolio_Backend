@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: "true" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://kshitish-portfolio.netlify.app/",
+    origin: "https://kshitish-portfolio.netlify.app",
     credentials: true,
   })
 );
